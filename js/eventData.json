@@ -1,0 +1,60 @@
+/* Event Data */
+let eventData = [{
+		date: "2017-07-20",
+		eventId: 0,
+		event: "Come up with a homework idea",
+		description: "Well, yeah, you know. You've got to engage the audience, inspire them to do something if not great than warm at least. Something you'll be glad to check on later."
+			},
+	{
+		date: "2017-07-22",
+		eventId: 0,
+		event: "Parent's birthday",
+		description: "Yeah, both of them. Mom wanted a new bag — have no idea where to get one. Zara? Will see. Anyway, yeah, both of them, same day. Have to check those homeworks though."
+			},
+	{
+		date: "2017-07-22",
+		eventId: 1,
+		event: "Friends' party",
+		description: "Go see some friends since you're visiting Ternopil, grab some beer, talk about life and how everything is shit.",
+		participants: [{
+				name: "Volodymyr Stoyko",
+				url: "https://www.facebook.com/corest",
+				avatar: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/19959082_10210721389766187_6789533543778955899_n.jpg?oh=204032e8f826891d02c566e5cdcdf384&oe=59C40BCC"
+					},
+			{
+				name: "Gustav Hansen",
+				url: "https://randomuser.me/",
+				avatar: "https://randomuser.me/api/portraits/men/76.jpg"
+					}
+				]
+			},
+	{
+		date: "2017-07-25",
+		eventId: 0,
+		event: "Owerwatch Time",
+		description: "Play with friends.",
+		participants: [{
+				name: "Tracer",
+				url: "https://playoverwatch.com/en-us/heroes/tracer/",
+				avatar: "https://blzgdapipro-a.akamaihd.net/hero/tracer/hero-select-portrait.png"
+					},
+			{
+				name: "Reaper",
+				url: "https://playoverwatch.com/en-us/heroes/reaper/",
+				avatar: "https://blzgdapipro-a.akamaihd.net/hero/reaper/hero-select-portrait.png"
+					}
+				]
+			},
+	{
+		date: "2017-07-23",
+		eventId: 0,
+		event: "Microsoft Interview",
+		description: "Prepare for a Microsoft Interview",
+		participants: [{
+				name: "Bill Gates",
+				url: "https://www.microsoft.com/en-us",
+				avatar: "http://news.unl.edu/sites/default/files/Microsoft-PESTEL-Analysis.jpg"
+					}
+				]
+			},
+		];
