@@ -48,7 +48,15 @@ class Calendar {
 			this.show(++this.year);
 		});
 		this.element.querySelectorAll('.D>div>label').forEach((element) => element.addEventListener('click', (event) => {
-			this.callback(event.target.parentElement.parentElement.getAttribute('data-date')); // костыль: наследник<родитель<родитель<дата
+			let element = event.target;
+			while (element) {
+				if (element.hasAttribute('data-date')) {
+					this.callback(element.getAttribute('data-date'));
+					break;
+				} else {
+					element = element.parentElement;
+				}
+			}
 		}));
 	}
 }
